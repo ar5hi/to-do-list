@@ -1,0 +1,39 @@
+.main{
+ display: flex;
+ align-items: stretch;
+width: 80%;
+}
+.items{
+     font-size: 35px;
+     flex-grow: 5;
+     margin-left: 300px;
+  text-align: left;
+  /* background-color: lavender; */
+}
+.button {
+background-color: white; 
+  flex-grow: 5;
+  margin: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.2s;
+}
+.completed{
+    border: 2px solid black;
+    color: whitesmoke; 
+}
+.delete{
+    border: 2px solid rgb(80, 80, 80);
+    color:balck; 
+}
+.delete:hover {
+  background-color: rgb(80, 80, 80); 
+  color: white;
+}
+.completed:hover {
+  background-color:#4CAF50; 
+  color: white;
+}
